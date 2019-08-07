@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  sizing: border-box;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+  display: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-family:fantasy;
+  font-size: 22px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: lightblue;
+  color: darkblue;
+  background-color: lightblue;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 900px){
+  img{
+    hieght: 150px;
+    width:20
+  }
+}
+
+@media screen and (max-width: 600px){
+  img{
+    hieght: 150px;
+    width;
+  }
+}
